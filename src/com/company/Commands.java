@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.HashMap;
 
-public interface Commands {
+public abstract class Commands {
     HashMap<String,Integer> colors = new HashMap<>();
     String getName();
 
